@@ -11,6 +11,7 @@ def list_dwarves(array)
   count = 1
   array.each do |name|
     puts "#{count}. #{name}"
+    cout += 1
   end
   # Use `each_with_index` to enumerate over the provided array
   #
